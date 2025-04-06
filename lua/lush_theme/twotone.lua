@@ -135,7 +135,7 @@ local theme = lush(function()
     MsgSeparator { Normal }, -- Separator for scrolled messages, `msgsep` flag of 'display'
     MoreMsg { Normal }, -- |more-prompt|
     NormalNC { Normal }, -- normal text in non-current windows
-    Pmenu { bg = Normal.bg.lighten(5) }, -- Popup menu: normal item.
+    Pmenu { bg = Normal.bg.lighten(10) }, -- Popup menu: normal item.
     PmenuSel { bg = Pmenu.bg.lighten(25) }, -- Popup menu: selected item.prompt preferred Punctuation
     PmenuSbar { bg = Pmenu.bg.lighten(15) }, -- Popup menu: scrollbar.
     PmenuThumb { bg = Pmenu.bg.lighten(25) }, -- Popup menu: Thumb of the scrollbar.
